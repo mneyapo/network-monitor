@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOGFILE=/home/admin/network-monitor.log
+LOGFILE=/home/pi/network-monitor.log
 
 if ifconfig eth0 | grep -q "inet addr:" ;
 then
